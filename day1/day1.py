@@ -15,7 +15,7 @@ dic = {}
 total = 0
 while True:
   for line in inputs:
-    total += int(line)
+    total += line
     if total in dic:
       print(f'loop found {total}'); exit()
     dic[total] = True
